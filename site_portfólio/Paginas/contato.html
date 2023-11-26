@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+
+<html lang="pt-BR">
+    <head>
+        <title>Gabriel Rodrigues</title>
+        <link rel="stylesheet" href="../css/contato.css">
+        <link rel="stylesheet" href="https://use.typekit.net/qyj0ezv.css">
+        <meta name="viewport" content="width=device-width" initial-scale=1.0>
+        <script src="../js/contato.js"></script>
+    </head>
+    <header>
+        <div class="cabecalho">
+           <img class="logo" src="../images/logo_html.png">
+            <ul>   
+                <li><a href="inicio.html">Início</a></li>
+                <li><a href="trabalhos.html">Trabalhos</a></li>
+                <li><a class="ativo">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <div id="formulario">
+            <div class="escritas">
+                <div class="nome">
+                    <label for="nome">
+                        Nome:
+                        <br>
+                        <input class="nome_input" placeholder="Nome">
+                    </label>
+                </div>
+                <div class="email">
+                    <label for="email">
+                        Email:
+                        <br>
+                        <input class="email_input" type="email" placeholder="123456789@email.com">
+                    </label>
+                </div>
+                <div class="mensagem">
+                    <label for="mensagem">
+                        Mensagem:
+                        <br>
+                        <textarea class="mensagem_input" type="text" placeholder="Digite sua mensagem aqui"></textarea>
+                    </label>
+                </div>
+            </div>
+                <button id="botao" type="button" onclick="enviado()">
+                    Enviar
+                </button>
+        </div>    
+    </body>
+    <footer>
+        <div class="rodape">
+            <a>São Paulo, 2004</a>
+            <br>
+            <a>Copyright © 2023 Gabriel Rodrigues. All rights reserved.</a>
+        </div>
+    </footer>
+</html>
